@@ -7,3 +7,7 @@ vim.g.snacks_animate = false
 
 -- disable autoformat on save
 vim.g.autoformat = false
+
+-- disable line number
+vim.opt.number = false
+vim.opt.relativenumber = false
