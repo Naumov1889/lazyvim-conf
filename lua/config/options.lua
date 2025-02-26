@@ -11,3 +11,10 @@ vim.g.autoformat = false
 -- disable line number
 vim.opt.number = false
 vim.opt.relativenumber = false
+
+-- Force .pcss to be Treated as CSS
+vim.filetype.add({
+  extension = {
+    pcss = "css",
+  },
+})
